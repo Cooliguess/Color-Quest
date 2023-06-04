@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.target=SWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n\ \r\n\ WINDOW\ refers\ to\ the\ screen\ the\ player\ can\ actually\ see,\ the\ visible\ screen,\ POV,\ whatever\ you\ wanna\ call\ it\ (short\ term\ \=\ win)\r\n\ FULL\ WORLD\ refers\ to\ the\ entire\ world\ that\ the\ player\ can\ only\ see\ a\ portion\ of\ through\ the\ window.\r\n\ \r\n\ **so\ in\ a\ way,\ it\ would\ be\ like\ POV\=WINDOW,\ and\ Earth's\ surface\ area\ \=\ FULL\ WORLD,\ in\ a\ 2d\ way**\r\n\ \r\n
+comment1.params=winWide\ winHigh\ cellSize\ fullW\ fullH
+comment1.target=SWorld(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ SWorld.\r\n\ \r\n
+comment10.params=
+comment10.target=void\ scrollObjects()
+comment11.params=
+comment11.target=int\ getincPerScrollX()
+comment12.params=
+comment12.target=int\ getincPerScrollY()
+comment13.params=
+comment13.target=int\ getIncPerScrollX()
+comment14.params=
+comment14.target=int\ getIncPerScrollY()
+comment2.params=main\ xRange\ yRange
+comment2.target=void\ setMainActor(greenfoot.Actor,\ int,\ int)
+comment2.text=\r\n\ x&y\ range\ is\ the\ amount\ of\ breathing\ room\ in\ the\ window\ in\ which\ \r\n\ the\ player\ can\ move\ before\ starting\ the\ scrolling\ mechanism\r\n
+comment3.params=scrollingBackground
+comment3.target=void\ setScrollingBackground(greenfoot.GreenfootImage)
+comment3.text=\r\n\ the\ image\ u\ want\ as\ the\ background\r\n
+comment4.params=obj\ xLoc\ yLoc\ scroller
+comment4.target=void\ addObject(greenfoot.Actor,\ int,\ int,\ boolean)
+comment5.params=obj\ xLoc\ yLoc
+comment5.target=void\ addObject(greenfoot.Actor,\ int,\ int)
+comment6.params=obj
+comment6.target=void\ removeObject(greenfoot.Actor)
+comment7.params=objs
+comment7.target=void\ removeObjects(java.util.List)
+comment8.params=
+comment8.target=void\ act()
+comment9.params=
+comment9.target=void\ scrollBackground()
+numComments=15

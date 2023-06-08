@@ -4,8 +4,9 @@ Hello, this is a simple platformer that me and three group members designed for 
 
 Installation:
   1. Install Greenfoot https://www.greenfoot.org/download/installation
-  2. Unzip the file and open with the Greenfoot IDE
-  3. It may take a while but once the screen is prompted, press 'run' to start playing!
+  2. Download ZIP file
+  3. Unzip the file and open with the Greenfoot IDE
+  4. It may take a while but once the screen is prompted, press 'run' to start playing!
 
 Thanks again to my group members and for DanPost for his help in the scrolling world class.
 
